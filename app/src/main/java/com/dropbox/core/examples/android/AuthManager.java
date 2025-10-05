@@ -17,9 +17,7 @@
 //import com.dropbox.core.examples.android.internal.OpenWithActivity;
 //import com.dropbox.core.v2.users.FullAccount;
 //
-///**
-// * Activity that shows information about the currently logged-in Dropbox user.
-// */
+
 //public class UserActivity extends DropboxActivity {
 //
 //    private static final String PREFS_NAME = "dropbox-sample";
