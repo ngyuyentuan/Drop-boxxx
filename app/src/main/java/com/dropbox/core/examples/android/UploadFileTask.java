@@ -13,9 +13,7 @@ import com.dropbox.core.v2.files.WriteMode;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * AsyncTask để upload file trực tiếp từ content:// Uri lên Dropbox
- */
+
 public class UploadFileTask extends AsyncTask<String, Void, FileMetadata> {
 
     private static final String TAG = "UploadFileTask";
@@ -52,7 +50,6 @@ public class UploadFileTask extends AsyncTask<String, Void, FileMetadata> {
         try {
             Uri uri = Uri.parse(localUri);
 
-            // Lấy tên file từ Uri (FileUtils bạn đã có sẵn trong project)
             String remoteFileName = FileUtils.getFileName(mContext, uri);
             if (remoteFileName == null || remoteFileName.trim().isEmpty()) {
                 remoteFileName = "upload_" + System.currentTimeMillis();
@@ -64,7 +61,7 @@ public class UploadFileTask extends AsyncTask<String, Void, FileMetadata> {
                     return null;
                 }
 
-                // Upload lên Dropbox
+              
                 return mDbxClient.files()
                         .uploadBuilder(remoteFolderPath + "/" + remoteFileName)
                         .withMode(WriteMode.OVERWRITE) // ghi đè nếu trùng
