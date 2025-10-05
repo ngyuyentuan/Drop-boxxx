@@ -23,9 +23,7 @@ public class UploadFileTask extends AsyncTask<String, Void, FileMetadata> {
     private final Callback mCallback;
     private Exception mException;
 
-    /**
-     * Callback cho kết quả upload
-     */
+   
     public interface Callback {
         void onUploadComplete(FileMetadata result);
         void onError(Exception e);
