@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/download_item"
+            android:title="@string/title_save_item" />
+        <item
+            android:id="@+id/copy_item"
+            android:title="@string/title_copy_item" />
+        <item
+            android:id="@+id/move_item"
+            android:title="@string/title_move_item" />
+        <item
+            android:id="@+id/delete_item"
+            android:title="@string/title_delete_item" />
+    </group>
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <color name="dbx_white_opaque_100">#FFFFFF</color>
+    <color name="dbx_primary">#2F3746</color>
+    <color name="dbx_primary_dark">#242931</color>
+    <color name="dbx_color_control_normal">#999999</color>
+    <color name="dbx_color_control_activated">#FF0000</color>
+    <color name="dbx_color_control_highlight">#555555</color>
+    <color name="dbx_color_switch_thumbNormal">#FFFFFF</color>
+</resources>

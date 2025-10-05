@@ -1,0 +1,54 @@
+// build.gradle (Cấp độ Module)
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+
+android {
+    namespace 'com.dropbox.core.examples.android'
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.dropbox.core.examples.android"
+        minSdkVersion 24
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.13.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.dropbox.core:dropbox-core-sdk:6.0.0'
+    implementation 'com.dropbox.core:dropbox-android-sdk:6.0.0' // hoặc version mới nhất
+    implementation 'com.squareup.picasso:picasso:2.8'          // cho load ảnh
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.google.android.libraries.play.games:inputmapping:1.1.1-beta'
+    implementation 'com.dropbox.core:dropbox-core-sdk:6.0.0'
+
+    // Thư viện Gson (nếu cần dùng, nhưng với code mới thì không bắt buộc)
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // Thêm dòng này cho thư viện Gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+}

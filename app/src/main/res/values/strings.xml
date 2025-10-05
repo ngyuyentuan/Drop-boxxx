@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dropbox Client</string>
+    <!-- Change this to your app key -->
+    <string name="app_key">xxnncso2v6rq3ml</string>
+    <string name="title_activity_files">Files</string>
+    <string name="title_activity_openwith">Open With</string>
+    <string name="title_menu_home">Home</string>
+    <string name="title_menu_files">Files</string>
+    <string name="title_menu_notifications">Notifications</string>
+    <string name="title_menu_settings">Settings</string>
+    <string name="title_logo">Dropbox</string>
+
+    <string name="title_save_item">Save to device</string>
+    <string name="title_copy_item">Copy</string>
+    <string name="title_move_item">Move</string>
+    <string name="title_delete_item">Delete</string>
+
+</resources>

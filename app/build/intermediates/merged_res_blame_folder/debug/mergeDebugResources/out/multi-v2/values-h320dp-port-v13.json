@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dropbox.core.examples.android.app-mergeDebugResources-34:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nguye\\.gradle\\caches\\8.13\\transforms\\2c1461cb86f4c131ccaa72e4f3feb517\\transformed\\material-1.13.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}
