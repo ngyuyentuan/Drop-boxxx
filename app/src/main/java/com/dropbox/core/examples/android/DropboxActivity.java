@@ -5,9 +5,7 @@ import android.content.SharedPreferences;
 import androidx.appcompat.app.AppCompatActivity;
 import com.dropbox.core.android.Auth;
 
-/**
- * Lớp Activity cơ sở để xử lý việc xác thực và khởi tạo Dropbox client.
- */
+
 public abstract class DropboxActivity extends AppCompatActivity {
 
     @Override
@@ -33,8 +31,6 @@ public abstract class DropboxActivity extends AppCompatActivity {
         loadData();
     }
 
-    /**
-     * Phương thức trừu tượng để tải dữ liệu cần thiết cho Activity.
-     */
+    
     protected abstract void loadData();
 }
