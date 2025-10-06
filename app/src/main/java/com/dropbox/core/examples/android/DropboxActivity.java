@@ -1,10 +1,11 @@
 package com.dropbox.core.examples.android;
 
-import android.content.Context;
-import android.content.SharedPreferences;
-import androidx.appcompat.app.AppCompatActivity;
-import com.dropbox.core.android.Auth;
+import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.dropbox.core.DbxRequestConfig;
+import com.dropbox.core.v2.DbxClientV2;
 
 public abstract class DropboxActivity extends AppCompatActivity {
 
@@ -12,25 +13,27 @@ public abstract class DropboxActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        SharedPreferences prefs = getSharedPreferences("dropbox-sample", Context.MODE_PRIVATE);
-        String accessToken = prefs.getString("access-token", null);
+        String accessToken = AuthManager.getStoredAccessToken(this);
 
         if (accessToken == null) {
-            accessToken = Auth.getOAuth2Token();
-            if (accessToken != null) {
-                prefs.edit().putString("access-token", accessToken).apply();
-                initAndLoadData(accessToken);
-            }
+            // Nếu chưa login → kiểm tra kết quả sau khi login
+            AuthManager.handleAuthResult(this);
+            accessToken = AuthManager.getStoredAccessToken(this);
+        }
+
+        if (accessToken != null) {
+            DbxRequestConfig config = DbxRequestConfig.newBuilder("DropboxSampleApp").build();
+            DbxClientV2 client = new DbxClientV2(config, accessToken);
+            DropboxClientFactory.init(client);
+
+            onClientsReady();
         } else {
-            initAndLoadData(accessToken);
+            // Nếu vẫn chưa có token → bắt đầu đăng nhập
+            AuthManager.startOAuth(this, getString(R.string.app_key));
         }
     }
 
-    private void initAndLoadData(String accessToken) {
-        DropboxClientFactory.init(accessToken);
-        loadData();
-    }
+    protected abstract void onClientsReady();
 
-    
     protected abstract void loadData();
 }

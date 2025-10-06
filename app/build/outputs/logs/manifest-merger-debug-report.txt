@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\nguye\.gradle\caches\8.13\transforms\2c1461cb86f4c131ccaa72e4f3feb517\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\nguye\.gradle\caches\8.13\transforms\8b1b213ebc59cb5c5733f9ee3784d111\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
@@ -51,39 +51,39 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nguye\.gradle\ca
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\nguye\.gradle\caches\8.13\transforms\ef52683d36974beebcc7ec1735c7ed50\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\nguye\.gradle\caches\8.13\transforms\070f317d87ddb4a07eafe9d32cf6e730\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 	package
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:4:5-48
-		INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:4:5-48
+		INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:11:5-67
 MERGED from [com.dropbox.core:dropbox-android-sdk:6.0.0] C:\Users\nguye\.gradle\caches\8.13\transforms\18e825c2c1665469d2aba7181191f37d\transformed\jetified-dropbox-android-sdk-6.0.0\AndroidManifest.xml:7:5-67
 MERGED from [com.dropbox.core:dropbox-android-sdk:6.0.0] C:\Users\nguye\.gradle\caches\8.13\transforms\18e825c2c1665469d2aba7181191f37d\transformed\jetified-dropbox-android-sdk-6.0.0\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:7:5-8:38
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:7:5-8:38
 	android:maxSdkVersion
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:8:9-35
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:9:5-10:37
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:9:5-10:37
 	android:maxSdkVersion
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:10:9-35
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:13:5-54:19
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:13:5-54:19
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:13:5-54:19
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:13:5-54:19
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:13:5-17:19
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:13:5-17:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\nguye\.gradle\caches\8.13\transforms\2c1461cb86f4c131ccaa72e4f3feb517\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
@@ -113,87 +113,87 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\nguye\.gradle\cach
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\nguye\.gradle\caches\8.13\transforms\070f317d87ddb4a07eafe9d32cf6e730\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\nguye\.gradle\caches\8.13\transforms\070f317d87ddb4a07eafe9d32cf6e730\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 	android:extractNativeLibs
-		INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\nguye\.gradle\caches\8.13\transforms\ddc49c54a4fdb756bca4657a90b1bb5a\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:15:9-45
 	android:allowBackup
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:14:9-36
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:14:9-36
 	android:theme
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:18:9-40
 activity#com.dropbox.core.examples.android.FilesActivity
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:20:9-28:20
 	android:label
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:23:13-45
 	android:exported
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:21:13-42
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:21:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:24:13-27:29
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.dropbox.core.android.AuthActivity
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:30:9-41:20
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:30:9-41:20
 	android:launchMode
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:34:13-44
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:34:13-44
 	android:exported
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:33:13-36
 	android:configChanges
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:32:13-57
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:32:13-57
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:31:13-65
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:31:13-65
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:1+data:scheme:db-xxnncso2v6rq3ml
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:35:13-40:29
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:35:13-40:29
 data
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:17-77
 	android:host
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:59-75
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:59-75
 	android:scheme
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:23-58
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:23-58
 	android:mimeType
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:50:23-52
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:50:23-52
 action#android.intent.action.VIEW
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:38:17-78
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:38:17-78
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:38:27-75
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:38:27-75
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:39:17-76
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:39:27-73
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:39:27-73
 activity#com.dropbox.core.examples.android.internal.OpenWithActivity
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:43:9-52:20
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:43:9-52:20
 	android:label
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:46:13-60
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:46:13-60
 	android:exported
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:44:13-54
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:44:13-54
 intent-filter#action:name:com.dropbox.android.intent.action.DBXC_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:47:13-51:29
 action#com.dropbox.android.intent.action.DBXC_EDIT
-ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:48:17-86
+ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:48:17-86
 	android:name
-		ADDED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:48:25-83
+		ADDED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:48:25-83
 uses-sdk
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\nguye\.gradle\caches\8.13\transforms\2c1461cb86f4c131ccaa72e4f3feb517\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
@@ -287,9 +287,9 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\nguye\.gradle\cache
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\nguye\.gradle\caches\8.13\transforms\070f317d87ddb4a07eafe9d32cf6e730\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\nguye\.gradle\caches\8.13\transforms\070f317d87ddb4a07eafe9d32cf6e730\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
 ADDED from [com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:9:5-98
 	android:name

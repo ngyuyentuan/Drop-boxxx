@@ -3609,6 +3609,7 @@ drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_expand_less_22px
 drawable ic_expand_more_22px
+drawable ic_file
 drawable ic_files_grey_24dp
 drawable ic_folder_blue_36dp
 drawable ic_home_grey_24dp
@@ -3766,12 +3767,16 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
+id action_logout
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_refresh
+id action_settings
 id action_text
+id action_upload
 id actions
 id activity_chooser_view_content
 id activity_open_with
@@ -3904,8 +3909,10 @@ id expand_activities_button
 id expanded_menu
 id fab
 id fade
+id file_icon
+id file_name
+id file_size
 id files_button
-id files_list
 id fill
 id fill_horizontal
 id fill_vertical
@@ -4106,6 +4113,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id report_drawn
 id retreat
 id reverseSawtooth
@@ -4396,6 +4404,7 @@ layout design_text_input_start_icon
 layout files_item
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_dropbox_file
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4462,6 +4471,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu context_menu
 menu drawer_view
+menu main_menu
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -4533,7 +4543,9 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string file_or_folder_icon
 string hide_bottom_view_on_scroll_behavior
+string icon
 string icon_content_description
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
@@ -4643,6 +4655,8 @@ string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string nav_rail_collapsed_a11y_label
 string nav_rail_expanded_a11y_label
+string navigation_drawer_close
+string navigation_drawer_open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

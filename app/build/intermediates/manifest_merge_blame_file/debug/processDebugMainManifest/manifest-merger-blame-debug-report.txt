@@ -9,20 +9,20 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:6:22-64
+11-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission
-12-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:7:5-8:38
+12-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:7:5-8:38
 13        android:name="android.permission.READ_EXTERNAL_STORAGE"
-13-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:7:22-77
+13-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:7:22-77
 14        android:maxSdkVersion="28" />
-14-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:8:9-35
+14-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:8:9-35
 15    <uses-permission
-15-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:9:5-10:37
+15-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:9:5-10:37
 16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-16-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:9:22-78
+16-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:9:22-78
 17        android:maxSdkVersion="28" />
-17-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:10:9-35
+17-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:10:9-35
 18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 18-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:9:5-98
 18-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:9:22-95
@@ -49,192 +49,191 @@
 29    </queries>
 30
 31    <application
-31-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:13:5-54:19
+31-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:13:5-54:19
 32        android:allowBackup="false"
-32-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:14:9-36
+32-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:14:9-36
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 33-->[androidx.core:core:1.13.0] C:\Users\nguye\.gradle\caches\8.13\transforms\ddc49c54a4fdb756bca4657a90b1bb5a\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 34        android:debuggable="true"
 35        android:extractNativeLibs="false"
 36        android:icon="@drawable/dropbox_big"
-36-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:15:9-45
+36-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:15:9-45
 37        android:label="@string/app_name"
-37-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:16:9-41
+37-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:16:9-41
 38        android:supportsRtl="true"
-38-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:17:9-35
-39        android:testOnly="true"
-40        android:theme="@style/AppTheme" >
-40-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:18:9-40
-41        <activity
-41-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:20:9-28:20
-42            android:name="com.dropbox.core.examples.android.FilesActivity"
-42-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:21:13-42
-43            android:exported="true"
-43-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:22:13-36
-44            android:label="@string/app_name" >
-44-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:23:13-45
-45            <intent-filter>
-45-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:24:13-27:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:25:17-69
-46-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:25:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:26:17-77
-48-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:26:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:30:9-41:20
-52            android:name="com.dropbox.core.android.AuthActivity"
-52-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:31:13-65
-53            android:configChanges="orientation|keyboard"
-53-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:32:13-57
-54            android:exported="true"
-54-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:33:13-36
-55            android:launchMode="singleTask" >
-55-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:34:13-44
-56            <intent-filter>
-56-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:35:13-40:29
-57                <data
-57-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:17-77
-58                    android:host="1"
-58-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:59-75
-59                    android:scheme="db-xxnncso2v6rq3ml" />
-59-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:23-58
-60
-61                <action android:name="android.intent.action.VIEW" />
-61-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:37:17-69
-61-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:37:25-66
-62
-63                <category android:name="android.intent.category.BROWSABLE" />
-63-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:38:17-78
-63-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:38:27-75
-64                <category android:name="android.intent.category.DEFAULT" />
-64-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:39:17-76
-64-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:39:27-73
-65            </intent-filter>
-66        </activity>
-67        <activity
-67-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:43:9-52:20
-68            android:name="com.dropbox.core.examples.android.internal.OpenWithActivity"
-68-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:44:13-54
-69            android:exported="true"
-69-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:45:13-36
-70            android:label="@string/title_activity_openwith" >
-70-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:46:13-60
-71            <intent-filter>
-71-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:47:13-51:29
-72                <action android:name="com.dropbox.android.intent.action.DBXC_EDIT" />
-72-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:48:17-86
-72-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:48:25-83
-73
-74                <category android:name="android.intent.category.DEFAULT" />
-74-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:39:17-76
-74-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:39:27-73
-75
-76                <data android:mimeType="text/plain" />
-76-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:36:17-77
-76-->C:\Users\nguye\StudioProjects\dropbox_client\app\src\main\AndroidManifest.xml:50:23-52
-77            </intent-filter>
-78        </activity>
-79
-80        <uses-library
-80-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:14:9-16:40
-81            android:name="app-inputmapping"
-81-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:15:13-44
-82            android:required="false" />
-82-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:16:13-37
-83
-84        <activity
-84-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-85-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-88
-89        <meta-data
-89-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nguye\.gradle\caches\8.13\transforms\9312cf0c6770cedc86054358aa1e26db\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nguye\.gradle\caches\8.13\transforms\9312cf0c6770cedc86054358aa1e26db\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nguye\.gradle\caches\8.13\transforms\9312cf0c6770cedc86054358aa1e26db\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-92
-93        <provider
-93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-94            android:name="androidx.startup.InitializationProvider"
-94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-95            android:authorities="com.dropbox.core.examples.android.androidx-startup"
-95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-96            android:exported="false" >
-96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-97            <meta-data
-97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-99                android:value="androidx.startup" />
-99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-100            <meta-data
-100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nguye\.gradle\caches\8.13\transforms\78fcdd439820652e7f71dcc85406f51d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-101-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nguye\.gradle\caches\8.13\transforms\78fcdd439820652e7f71dcc85406f51d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-102                android:value="androidx.startup" />
-102-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nguye\.gradle\caches\8.13\transforms\78fcdd439820652e7f71dcc85406f51d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-103            <meta-data
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-104                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-105                android:value="androidx.startup" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-106        </provider>
-107        <provider
-107-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
-108            android:name="com.squareup.picasso.PicassoProvider"
-108-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
-109            android:authorities="com.dropbox.core.examples.android.com.squareup.picasso"
-109-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
-110            android:exported="false" />
-110-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
-111
-112        <receiver
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-114            android:directBootAware="false"
-114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-115            android:enabled="true"
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-116            android:exported="true"
-116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-117            android:permission="android.permission.DUMP" >
-117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-118            <intent-filter>
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-120            </intent-filter>
-121            <intent-filter>
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-123            </intent-filter>
-124            <intent-filter>
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-125                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-126            </intent-filter>
-127            <intent-filter>
-127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-128                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-129            </intent-filter>
-130        </receiver>
-131    </application>
-132
-133</manifest>
+38-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:17:9-35
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:18:9-40
+40        <activity
+40-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:20:9-28:20
+41            android:name="com.dropbox.core.examples.android.FilesActivity"
+41-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:21:13-42
+42            android:exported="true"
+42-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:22:13-36
+43            android:label="@string/app_name" >
+43-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:23:13-45
+44            <intent-filter>
+44-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:24:13-27:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:25:17-69
+45-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:25:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:26:17-77
+47-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:26:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:30:9-41:20
+51            android:name="com.dropbox.core.android.AuthActivity"
+51-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:31:13-65
+52            android:configChanges="orientation|keyboard"
+52-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:32:13-57
+53            android:exported="true"
+53-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:33:13-36
+54            android:launchMode="singleTask" >
+54-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:34:13-44
+55            <intent-filter>
+55-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:35:13-40:29
+56                <data
+56-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:17-77
+57                    android:host="1"
+57-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:59-75
+58                    android:scheme="db-xxnncso2v6rq3ml" />
+58-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:23-58
+59
+60                <action android:name="android.intent.action.VIEW" />
+60-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:37:17-69
+60-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:37:25-66
+61
+62                <category android:name="android.intent.category.BROWSABLE" />
+62-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:38:17-78
+62-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:38:27-75
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:39:17-76
+63-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:39:27-73
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:43:9-52:20
+67            android:name="com.dropbox.core.examples.android.internal.OpenWithActivity"
+67-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:44:13-54
+68            android:exported="true"
+68-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:45:13-36
+69            android:label="@string/title_activity_openwith" >
+69-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:46:13-60
+70            <intent-filter>
+70-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:47:13-51:29
+71                <action android:name="com.dropbox.android.intent.action.DBXC_EDIT" />
+71-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:48:17-86
+71-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:48:25-83
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:39:17-76
+73-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:39:27-73
+74
+75                <data android:mimeType="text/plain" />
+75-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:36:17-77
+75-->C:\Users\nguye\StudioProjects\Drop-boxxx1\app\src\main\AndroidManifest.xml:50:23-52
+76            </intent-filter>
+77        </activity>
+78
+79        <uses-library
+79-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:14:9-16:40
+80            android:name="app-inputmapping"
+80-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:15:13-44
+81            android:required="false" />
+81-->[com.google.android.libraries.play.games:inputmapping:1.1.1-beta] C:\Users\nguye\.gradle\caches\8.13\transforms\00ff4d016ccdf63dce2fef65e80b5ff2\transformed\jetified-inputmapping-1.1.1-beta\AndroidManifest.xml:16:13-37
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\nguye\.gradle\caches\8.13\transforms\27c469cba08a3e91aca07249afd71b8a\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nguye\.gradle\caches\8.13\transforms\9312cf0c6770cedc86054358aa1e26db\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nguye\.gradle\caches\8.13\transforms\9312cf0c6770cedc86054358aa1e26db\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\nguye\.gradle\caches\8.13\transforms\9312cf0c6770cedc86054358aa1e26db\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+91
+92        <provider
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+93            android:name="androidx.startup.InitializationProvider"
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+94            android:authorities="com.dropbox.core.examples.android.androidx-startup"
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+95            android:exported="false" >
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+96            <meta-data
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+98                android:value="androidx.startup" />
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\nguye\.gradle\caches\8.13\transforms\fe4154b0e579d8db65817c6f533eee95\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nguye\.gradle\caches\8.13\transforms\78fcdd439820652e7f71dcc85406f51d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nguye\.gradle\caches\8.13\transforms\78fcdd439820652e7f71dcc85406f51d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+101                android:value="androidx.startup" />
+101-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\nguye\.gradle\caches\8.13\transforms\78fcdd439820652e7f71dcc85406f51d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+105        </provider>
+106        <provider
+106-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
+107            android:name="com.squareup.picasso.PicassoProvider"
+107-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
+108            android:authorities="com.dropbox.core.examples.android.com.squareup.picasso"
+108-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
+109            android:exported="false" />
+109-->[com.squareup.picasso:picasso:2.8] C:\Users\nguye\.gradle\caches\8.13\transforms\705fc8bf80462e6fc67a38f2e7bd4253\transformed\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\nguye\.gradle\caches\8.13\transforms\7930d62b19ffa7943ed0268893e9d31d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

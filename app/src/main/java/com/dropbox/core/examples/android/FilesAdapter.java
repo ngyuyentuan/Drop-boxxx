@@ -1,139 +1,101 @@
-package com.dropbox.core.examples.android;
+package com.dropbox.core.examples.android; // Sửa package nếu cần
 
-import android.content.Context;
-import androidx.recyclerview.widget.RecyclerView;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.MimeTypeMap;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.dropbox.core.examples.android.model.DropboxFile;
 import com.dropbox.core.v2.files.FileMetadata;
 import com.dropbox.core.v2.files.FolderMetadata;
 import com.dropbox.core.v2.files.Metadata;
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 
-/**
- * Adapter for file list
- */
 public class FilesAdapter extends RecyclerView.Adapter<FilesAdapter.MetadataViewHolder> {
     private List<Metadata> mFiles;
     private final Picasso mPicasso;
     private final Callback mCallback;
-
-    public void setFiles(List<Metadata> files) {
-        mFiles = Collections.unmodifiableList(new ArrayList<>(files));
-        notifyDataSetChanged();
-    }
 
     public interface Callback {
         void onFolderClicked(FolderMetadata folder);
         void onFileClicked(FileMetadata file);
     }
 
-    public FilesAdapter(Picasso picasso, Callback callback) {
-        mPicasso = picasso;
-        mCallback = callback;
+    public FilesAdapter(Picasso picasso, List<DropboxFile> callback) {
+        this.mPicasso = picasso;
+        this.mCallback = callback;
+        this.mFiles = new ArrayList<>();
     }
 
+    public void setFiles(List<Metadata> files) {
+        mFiles = files;
+        notifyDataSetChanged();
+    }
+
+    @NonNull
     @Override
-    public MetadataViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        Context context = viewGroup.getContext();
-        View view = LayoutInflater.from(context)
-                .inflate(R.layout.files_item, viewGroup, false);
+    public MetadataViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.item_dropbox_file, parent, false); // Đảm bảo tên file layout đúng
         return new MetadataViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(MetadataViewHolder metadataViewHolder, int i) {
-        metadataViewHolder.bind(mFiles.get(i));
-    }
-
-    @Override
-    public long getItemId(int position) {
-        return mFiles.get(position).getPathLower().hashCode();
+    public void onBindViewHolder(@NonNull MetadataViewHolder holder, int position) {
+        Metadata item = mFiles.get(position);
+        holder.bind(item);
     }
 
     @Override
     public int getItemCount() {
-        return mFiles == null ? 0 : mFiles.size();
+        return mFiles.size();
     }
 
-    public class MetadataViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        private final TextView mTextView;
-        private final ImageView mImageView;
-        private Metadata mItem;
+    // -- ViewHolder Class -- //
+    public class MetadataViewHolder extends RecyclerView.ViewHolder {
+        private final ImageView iconView;
+        private final TextView nameView;
+        private final TextView sizeView;
 
-        public MetadataViewHolder(View itemView) {
+        public MetadataViewHolder(@NonNull View itemView) {
             super(itemView);
-            mImageView = itemView.findViewById(R.id.image);
-            mTextView = itemView.findViewById(R.id.text);
-            itemView.setOnClickListener(this);
-            itemView.setOnCreateContextMenuListener(new View.OnCreateContextMenuListener() {
-                @Override
-                public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+            iconView = itemView.findViewById(R.id.file_icon);
+            nameView = itemView.findViewById(R.id.file_name);
+            sizeView = itemView.findViewById(R.id.file_size);
+        }
 
+        public void bind(final Metadata item) {
+            nameView.setText(item.getName());
+
+            itemView.setOnClickListener(v -> {
+                if (item instanceof FolderMetadata) {
+                    mCallback.onFolderClicked((FolderMetadata) item);
+                } else if (item instanceof FileMetadata) {
+                    mCallback.onFileClicked((FileMetadata) item);
                 }
             });
-        }
-
-        private final MenuItem.OnMenuItemClickListener mOnMyActionClickListener = new MenuItem.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                //todo: process item click, mData is available here!!!
-                return true;
-            }
-        };
-
-        @Override
-        public void onClick(View v) {
-
-            if (mItem instanceof FolderMetadata) {
-                mCallback.onFolderClicked((FolderMetadata) mItem);
-            }  else if (mItem instanceof FileMetadata) {
-                mCallback.onFileClicked((FileMetadata)mItem);
-            }
-        }
-
-        public void bind(Metadata item) {
-            mItem = item;
-            mTextView.setText(mItem.getName());
-
-            // Load based on file path
-            // Prepending a magic scheme to get it to
-            // be picked up by DropboxPicassoRequestHandler
 
             if (item instanceof FileMetadata) {
-                MimeTypeMap mime = MimeTypeMap.getSingleton();
-                String ext = "";
-                int lastDot = item.getName().lastIndexOf(".");
-                if (lastDot != -1) {
-                    ext = item.getName().substring(lastDot + 1);
-                }
-                String type = mime.getMimeTypeFromExtension(ext);
-                if (type != null && type.startsWith("image/")) {
-                    mPicasso.load(FileThumbnailRequestHandler.buildPicassoUri((FileMetadata)item))
-                            .placeholder(R.drawable.ic_photo_grey_600_36dp)
-                            .error(R.drawable.ic_photo_grey_600_36dp)
-                            .into(mImageView);
-                } else {
-                    mPicasso.load(R.drawable.ic_insert_drive_file_blue_36dp)
-                            .noFade()
-                            .into(mImageView);
-                }
+                FileMetadata file = (FileMetadata) item;
+                sizeView.setText(formatSize(file.getSize()));
+                mPicasso.load(R.drawable.ic_file).into(iconView); // Thay thế bằng thumbnail nếu có
             } else if (item instanceof FolderMetadata) {
-                mPicasso.load(R.drawable.ic_folder_blue_36dp)
-                        .noFade()
-                        .into(mImageView);
+                sizeView.setText("Thư mục");
+                mPicasso.load(R.drawable.ic_folder_blue_36dp).into(iconView);
             }
+        }
+
+        private String formatSize(long bytes) {
+            if (bytes < 1024) return bytes + " B";
+            int exp = (int) (Math.log(bytes) / Math.log(1024));
+            String pre = "KMGTPE".charAt(exp-1) + "";
+            return String.format(Locale.US, "%.1f %sB", bytes / Math.pow(1024, exp), pre);
         }
     }
 }

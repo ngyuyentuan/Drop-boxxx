@@ -19,6 +19,13 @@
             android:background="@color/dbx_white_opaque_100"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"/>
+
         <TextView
             android:id="@+id/logo_text"
             android:layout_width="match_parent"
@@ -33,22 +40,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/files_list" />
+
 
             <ProgressBar
                 android:id="@+id/progress_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:visibility="gone" /> <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:visibility="gone" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            app:borderWidth="0dp"
+                android:importantForAccessibility="no"
+                app:borderWidth="0dp"
             android:layout_margin="@dimen/fab_margin"
             android:src="@drawable/ic_add_white_24dp"/>
         </androidx.coordinatorlayout.widget.CoordinatorLayout>

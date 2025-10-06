@@ -17,6 +17,10 @@
     <drawable name="ic_profile_default"/>
     <string name="app_key">xxnncso2v6rq3ml</string>
     <string name="app_name">Dropbox Client</string>
+    <string name="file_or_folder_icon">File or folder icon</string>
+    <string name="icon">icon</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="title_activity_files">Files</string>
     <string name="title_activity_openwith">Open With</string>
     <string name="title_copy_item">Copy</string>

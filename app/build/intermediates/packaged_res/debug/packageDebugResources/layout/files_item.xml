@@ -10,15 +10,15 @@
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
     android:clickable="true"
-    android:focusable="false">
+    android:focusable="true">
 
     <ImageView
         android:id="@+id/image"
-        android:scaleType="centerCrop"
-        android:layout_gravity="center_vertical"
         android:layout_width="@dimen/thumbnail_size"
-        android:layout_height="@dimen/thumbnail_size"
-        android:contentDescription="icon"/>
+        android:layout_height="29dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/icon"
+        android:scaleType="centerCrop" />
     <TextView
         android:id="@+id/text"
         android:maxLines="1"
